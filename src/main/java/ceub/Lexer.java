@@ -1,10 +1,7 @@
 package ceub;
 
-import java.util.*;
-
-
 public class Lexer {
-    private String input;
+    private final String input;
     private int pos = 0;
 
     Lexer(String input) {
